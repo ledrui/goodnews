@@ -1,0 +1,112 @@
+// Good News Everyone!
+
+div.form-wrapper h1 {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+div.form-wrapper h2 {
+  line-height: 2.5rem;
+  margin-left: 10px;
+}
+div.form-wrapper p {
+  margin: 0;
+}
+div.form-wrapper a {
+  text-decoration: none;
+  border-bottom: none;
+  color: #333;
+  opacity: 100;
+}
+div.form-wrapper a:hover {
+  color: currentColor;
+}
+
+div.goodNewsEveryone_submit {
+  position: relative;
+  width: 520px;
+  margin: 0 auto;
+  min-height: 312px;
+}
+div.goodNewsEveryone_submit form {
+  margin: 0 auto;
+  max-width: 500px;
+}
+div.goodNewsEveryone_submit form textarea {
+  margin: 0 auto;
+  width: 95%;
+  min-height: 107px;
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+  position: relative;
+  text-align: left;
+  border: none;
+  padding-top: 25px;
+  padding-left: 10px;
+}
+div.goodNewsEveryone_submit div.footer-container {
+  background-color: #ddd;
+  position: relative;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+div.goodNewsEveryone_submit div.footer-container input[type=submit] {
+  display: block;
+  float: right;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: .9em;
+  bottom: 0;
+  color: #fff;
+  background-color: #4267b2;
+  border: none;
+  text-align: center;
+  font-size: 1rem;
+}
+div.goodNewsEveryone_submit div.stickers-container {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+}
+div.goodNewsEveryone_submit div.stickers-container ul.stickers {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 3%;
+  text-align: left;
+  padding-top: 10px;
+  display: flex;
+}
+div.goodNewsEveryone_submit div.stickers-container ul.stickers:first-child {
+  padding-top: 15px;
+}
+div.goodNewsEveryone_submit div.stickers-container ul.stickers:nth-child(3) {
+  padding-bottom: 15px;
+}
+div.goodNewsEveryone_submit div.stickers-container ul.stickers li, div.goodNewsEveryone_submit div.stickers-container ul.stickers input[type=button] {
+  position: relative;
+  display: inline-block;
+  padding: 2px 1em;
+  margin: 0 5px;
+  background-color: #f6f7f9;
+  flex-grow: 1;
+  border-radius: 16px;
+  font-size: .8em;
+  max-width: 200px;
+}
+div.goodNewsEveryone_submit div.stickers-container ul.stickers li:hover, div.goodNewsEveryone_submit div.stickers-container ul.stickers input[type=button]:hover {
+  background-color: #ddd;
+}
+div.goodNewsEveryone_submit div.stickers-container ul.stickers li:active, div.goodNewsEveryone_submit div.stickers-container ul.stickers input[type=button]:active {
+  border: 1px solid #333;
+}
+div.goodNewsEveryone_submit div.stickers-container ul.stickers img {
+  position: relative;
+  display: inline-block;
+  top: 3px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
